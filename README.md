@@ -149,8 +149,10 @@ consistent, however one of the attributes in every _le has missing values. So, w
 mice package to predict the missing values. We did not encounter any data errors, spelling
 inconsistencies or bad metadata in the dataset.
 
+<img src="images/fig2.png">
 Fig 2. Data value missing 2009 – 2017
 
+<img src="images/fig3.png">
 Fig 3. Missing Values Against Date after Filling
 
 From our domain information, we consider that volume of the price might get impacted based
@@ -176,6 +178,7 @@ then the data is raised to the power of λ. The higher the likelihood, the bette
 parameter. Power transformations such as the Box-Cox help to stabilize the variance which is
 imperative for Box-Jenkins modelling.[9]
 
+<img src="images/fig4.png">
 Fig 4. Transforming the 2 features according to close price
 
 Here p value is greater that 0.01 which is 0.83. This makes us to go more deeper and move
@@ -187,6 +190,7 @@ the change between observations that are dd units of time apart, in this case, d
 to say one day apart. So our differenced data will represent the change from each value to the
 next, one day at a time. [9]
 
+<img src="images/fig5.png">
 Fig 5. Execution of Differencing
 
 Our p-value of 0.010.01 being lower than confidence level α=0.05 gives us significant evidence
@@ -240,6 +244,7 @@ Pros:
 Evaluation of the Model: The mean square error which we derived is 0.2127196982.Figure 1
 below shows the predicted vs actual value.
 
+<img src="images/fig6.png">
 Fig 6. Bitcoin Market Cap prediction based on Open Price
 
 Benefit for the target users : Trading of cryptocurrency is similar to stock market trading.
@@ -270,8 +275,6 @@ Optimising parameter: In order to get the best performance out of the model, we 
 optimum parameters.[10] We do this by trying many different combinations of the parameters
 and selecting the one with the relatively lowest AIC score.
 
-Fig 7. Indicating ARIMA Forecasting
-
 We can observe that there is drop down to the price in future from 90 percentile to 75
 percentiles.
 
@@ -284,8 +287,6 @@ It is however important to note that the AIC depend on a model being univariate,
 with normally distributed residuals. We know the first two are true from what we have done so
 far but are unsure about the latter condition. It is something that we will diagnose in the model
 diagnostics.
-
-Fig 8. AIC matrix when value of p=q
 
 We want to estimate as few parameters as possible due to the principle of parsimony (to select
 as few parameters as possible). In our case, the more parameters there are, the weaker the
@@ -305,7 +306,8 @@ clusters values from 3, 4, 5, we found that between 4 and 5 here is not much dif
 we decided to take the k value as 4. We attempt to identify the outliers based on these
 attributes.
 
-Fig 9. Before and After K Means Clustering</p>
+<img src="images/fig7.png">
+Fig 7. Before and After K Means Clustering</p>
 
 <h2>7.Data Visualization</h2>
 <h3>7.1 Inference visualised on different variables executed</h3>
@@ -321,7 +323,8 @@ would be relatively low. As the hash rate goes up, so does the cost of attacking
 Knowing this correlation would help a network of miners avoid any fraudulent transaction by a
 malicious miner.[8]
 
-Fig 10. Variations of Bitcoin's Difficulty and Hash rate attributes with time
+<img src="images/fig8.png">
+Fig 8. Variations of Bitcoin's Difficulty and Hash rate attributes with time
 
 When the number of transaction increases, more blocks are produced. Since there is a cap of
 average 1 block per 10 minutes, the difficulty of the network increases. With the difficulty
@@ -333,7 +336,8 @@ maintain a balance between number of transactions and difficulty, so that neithe
 number of transactions too high, leading to high difficulty, neither is it too low, leading to an
 inverse causation on market price.
 
-Fig 11. Variation of Bitcoin's Number of Transactions and Difficulty attributes with time As
+<img src="images/fig9.png">
+Fig 9. Variation of Bitcoin's Number of Transactions and Difficulty attributes with time As
 expected, it turns out that the top 5 features affecting the price are:
 
 Eth Hash rate: Hash rate in Giga hashes per second.
@@ -344,7 +348,8 @@ Eth Market cap: Market Capitalization in USD
 Above realisation helps in more accurate predictions about the cryptocurrencies' price, now
 that we know the major price drivers.
 
-Fig 12. Correlation of attributes with the Market Price
+<img src="images/fig10.png">
+Fig 10. Correlation of attributes with the Market Price
 
 From the historical behaviour of the cryptocurrencies, we know that hash rate increases with
 the number of transactions, and in turn Difficulty also increases. As seen from the plot below
@@ -357,7 +362,8 @@ transactions, transaction fees increase, and hence average confirmation time als
 would help miners verify if the transactions fees paid to them is fair according to the time spent
 on a block.
 
-Fig 13. Variation of Bitcoin's Transaction Fees attribute with Median Confirmation Time
+<img src="images/fig11.png">
+Fig 11. Variation of Bitcoin's Transaction Fees attribute with Median Confirmation Time
 attribute</p>
 
 <h2>8.Data Processing</h2>
@@ -376,33 +382,45 @@ Differencing 1 Differencing value as 1, the result of Dickery Fuller Test, showe
 p-value = 0.01, Alternative Hypothesis: stationary Since p-value < 0.05, it implies that data is
 now stationary, also seen from Figure 23 for differenced Closed Price Data.
 
-Fig 14. Differencing with 1
+<img src="images/fig12.png">
+Fig 12. Differencing with 1
 
 Differencing 2 Differencing value as 2, the result of Dickery Fuller Test, showed following value
 p-value = 0.01, Alternative Hypothesis: stationary Since p-value < 0.05, it implies that data is
 now stationary, also seen from Figure 24 for differenced Close Price Data.</p>
 
-<h3>8.2 ACF and PACF</h3>
-</p>Fig 16. Differencing with 2
+<img src="images/fig13.png">
+Fig 13. Differencing with 2
 
+<h3>8.2 ACF and PACF</h3>
+
+<img src="images/fig14.png">
+Fig 14. Differencing with 2
+
+<img src="images/fig15.png">
 Fig 17. ACF with Differencing 1
 
+<img src="images/fig16.png">
 Fig 18. PACF with differencing
+
+<img src="images/fig17.png">
 Fig 19. ACF with differencing
+
+<img src="images/fig18.png">
 Fig 20. PACF with differencing 2</p>
 
 <h2>Conclusion</h2>
-<p>Fig 14. Model for 2018 – 2019
 
-This dataset was difficult to fit with an ARIMA model because of the fact that the variance was
+<img src="images/fig19.png">
+Fig 14. Model for 2018 – 2019
+
+<p>This dataset was difficult to fit with an ARIMA model because of the fact that the variance was
 non-constant, which results in squared residuals that were dependent on one another.
 
 The residuals were also not Normal, even after transforming with the Box-Cox transformation
 in the beginning. Both issues easily apparent in our time series plot of the original data which
 has many sporadic bursts up and down.[9] While the residuals themselves were not
 autocorrelated, this still does not make for a forecast-ready model, at least not with ARIMA.
-
-Fig 15. Model for 2009 – 2017
 
 If someone were to accurately forecast on this dataset, it would be prudent to utilize a GARCH
 model instead, which better considers the non-constant variance. GARCH is a typical model for
