@@ -382,7 +382,6 @@ p-value = 0.01, Alternative Hypothesis: stationary Since p-value < 0.05, it impl
 now stationary, also seen from Figure 24 for differenced Close Price Data.</p>
 
 <h3>8.2 ACF and PACF</h3>
-
 </p>Fig 16. Differencing with 2
 
 Fig 17. ACF with Differencing 1
@@ -425,7 +424,7 @@ respectively.[10]</p>
 Chakraborty ;Faculty of Software and Information Science, Iwate Prefectural University - 152 -
 52 Sugo, Takizawa-mura, Iwate, 0200193, Japan E-mail: basabi@soft.iwate-pu.ac.jp.
 
-<link>http://www.rdatamining.com/examples/time-series-clustering-classi_cation.</link>
+http://www.rdatamining.com/examples/time-series-clustering-classi_cation.
 
 The Application of Machine Learning Techniques to Time-Series Data -Author Scott Mitchell;
 Master of Computing and Mathematical Sciences at the University of Waikato.
@@ -445,5 +444,4 @@ Article published at the Institute for Digital Research and Education website
 
 https://jstevenr.com/bitcoin.html#transforming
 
-https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with- machine-
-learning-1b5a711d</p>
+https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with-machine-learning-1b5a711d</p>
