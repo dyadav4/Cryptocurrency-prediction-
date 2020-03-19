@@ -1,7 +1,7 @@
-CRYPTOCURRENCY AND ITS IMPACT
+<h1>CRYPTOCURRENCY AND ITS IMPACT</h1>
 
-Abstract
-Cryptocurrency, an encrypted, peer-to-peer network for facilitating digital barter, is a
+<h2>Abstract</h2>
+<p>Cryptocurrency, an encrypted, peer-to-peer network for facilitating digital barter, is a
 technology developed eight years ago. Bitcoin, the first and most popular cryptocurrency, is
 paving the way as a disruptive technology to long standing and unchanged financial payment
 systems that have been in place for many decades. While cryptocurrencies are not likely to
@@ -14,10 +14,10 @@ SWOT analysis of different cryptocurrencies with main stream on BITCOIN is prese
 illuminates some of the recent events and movements that could influence whether Bitcoin
 contributes to a shift in economic paradigms and in the end we also mention that all
 cryptocurrencies behaves mostly similar and if the rates of cryptocurrencies falls down than
-other cryptocurrencies with respect to market cap will also drops down.
+other cryptocurrencies with respect to market cap will also drops down.</p>
 
-1.Overview
-There are different kinds of cryptocurrencies and when we see the analysis we can clearly
+<h2>1.Overview</h2>
+<p>There are different kinds of cryptocurrencies and when we see the analysis we can clearly
 observe that Bitcoin, the world’s most common and well known cryptocurrency, has been
 increasing in popularity. It has the same basic structure as it did when created in 2008, but
 repeat instances of the world market changing has created a new demand for cryptocurrencies
@@ -53,10 +53,10 @@ way money is exchanged worldwide. Bitcoin’s increased adoption has been integr
 global market shifts. The current Internet fueled global market is very much entangled. If one
 regional market begins to plummet, it can easily drag the others with it. Bitcoin, like the Euro,
 can freely move across many national borders, creating an environment that promotes global
-trade, mutual prosperity, and even peace.
+trade, mutual prosperity, and even peace.</p>
 
-2.Strengths
-South America has seen a huge increase in bitcoin transactions, increasing 510% till 2019 and
+<h2>2.Strengths</h2>
+<p>South America has seen a huge increase in bitcoin transactions, increasing 510% till 2019 and
 being dropped with 250% Bitcoin: A New Global Economy, 2015). In the past, different
 countries would convert their currency into US dollars to preserve their value. However, India
 has recently put restrictions on how many US dollars its citizens can convert. As a result, both a
@@ -74,10 +74,10 @@ this example, Bitcoin is the more viable solution as quick entry and exit for a 
 quickly gain value. [5]Other fiat currencies may become stronger and be more desired, but they
 cannot compete with cryptocurrencies‟ agility. Cryptocurrency is the disruptive technology that
 could be pushed into acceptance by investors who simply want a refuge from sinking global
-markets.
+markets.</p>
 
-3. Business Benefits
-Exploratory and Descriptive Analytics: Based on analysing the historical prices of different
+<h2>3. Business Benefits</h2>
+<p>Exploratory and Descriptive Analytics: Based on analysing the historical prices of different
 cryptocurrencies, we can predict the trends for the same, which will help potential investors
 make informed decisions.
 
@@ -91,10 +91,10 @@ using various clustering methodologies.
 Association rules: There can be established definite correlation between various factors and
 prices of the cryptocurrencies. This means the data can be analysed for frequent if-then
 relationships using the criteria of support and confidence to identify the most important
-relationships. This eventually leads to predict blockchain behaviour.
+relationships. This eventually leads to predict blockchain behaviour.</p>
 
-4. Data Preparation
-Our Data Set consists of date wise data, while online references used a 24-hour data,taken from
+<h2>4. Data Preparation</h2>
+<p>Our Data Set consists of date wise data, while online references used a 24-hour data,taken from
 Coin Exchange and Crypto download. We leveraged these features in developing a binary and a
 ternary classification algorithm, to predict the sign change in the Bitcoin price, based on daily
 data points. Both the algorithms take a manually created label depicting two classes in case of
@@ -116,13 +116,13 @@ from this data. 60 percentage od the data is classified as training and the rest
 
 testing data. For the analysis of the current data we use the algorithms and mechanism like
 ARIMA , AIC , ACF. There was conversion required to convert symbol and date into numerical
-format.
+format.</p>
 
-5. Data Cleaning and its Quality
+<h2>5. Data Cleaning and its Quality</h2>
 
-5.1. Cleaning
+<h3>5.1. Cleaning</h3>
 
-Data has been verified to identify: Data is divided into 2 segments. First segment 2009 – 2017
+<p>Data has been verified to identify: Data is divided into 2 segments. First segment 2009 – 2017
 and second segment 2018 – 2019.
 
 Missing data: We identified that bitcoin price dataset has missing values for Volume for 7
@@ -154,11 +154,11 @@ Fig 3. Missing Values Against Date after Filling
 
 From our domain information, we consider that volume of the price might get impacted based
 on its average daily price. We calculate the average daily price by taking average of daily High
-and Low.
+and Low.</p>
 
-5.2 Transformation [2nd Segment Refinement]
+<h3>5.2 Transformation [2nd Segment Refinement]</h3>
 
-With the end goal of forecasting, the first step after looking at the data is to transform it to
+<p>With the end goal of forecasting, the first step after looking at the data is to transform it to
 make it stationary, i.e. make it so the future behaves as the past. In order to determine the best
 way to do that, we should look at the ACF (auto-covariance) and PACF (partial auto- covariance)
 plots, which depict how data are affected by the observations that precede them. This will also
@@ -190,13 +190,13 @@ Fig 5. Execution of Differencing
 
 Our p-value of 0.010.01 being lower than confidence level α=0.05 gives us significant evidence
 to reject the null hypothesis that the data is not stationary, thereby concluding that it is.
-Satisfied by this, we can now move on with estimating the parameters of the model.
+Satisfied by this, we can now move on with estimating the parameters of the model.</p>
 
-6. Methods and Algorithms
+<h2>6. Methods and Algorithms</h2>
 
-6.1 Random Forests
+<h3>6.1 Random Forests</h3>
 
-Random Forests grows many classification trees. To classify a new object from an input vector,
+<p>Random Forests grows many classification trees. To classify a new object from an input vector,
 put the input vector down each of the trees in the forest. Each tree gives a classification, and
 we say the tree "votes" for that class. The forest chooses the classification having the most
 votes (over all the trees in the forest).
@@ -225,11 +225,11 @@ Price of the Coin Exchange Data Set with accuracy of maximum of 61.12% which is 
 greater than the Support Vector Model Classification. Consumers and Merchants who accept
 and deal with the cryptocurrency would like to know the stability of it.[6] We have other
 statistical measures like Kappa, p-value apart from accuracy to help us in evaluating the
-Classification Model.
+Classification Model.</p>
 
-6.2 Linear Regression
+<h3>6.2 Linear Regression</h3>
 
-Linear Regression is used for predictive analysis. In this case, there is a response variable whose
+<p>Linear Regression is used for predictive analysis. In this case, there is a response variable whose
 outcome has to be predicted based on the input variables which are also called as dependent
 variables. Linear Regression is used with continuous type of data.
 
@@ -248,11 +248,11 @@ their day strategy. If the Open Price predicted is much lower, then they can pla
 
 purchase and wait for later in the day to sell at higher price. If the predicted price comes higher
 than the expected, they can plan to sell or short sell. Thus, predicting the opening prices helps
-investors to plan their day trading strategy.
+investors to plan their day trading strategy.</p>
 
-6.3 ARIMA
+<h3>6.3 ARIMA</h3>
 
-Relatively basic Time Series model that we will be coding out and explaining the components
+<p>Relatively basic Time Series model that we will be coding out and explaining the components
 when necessary. Facebook Prophet uses an additive model for forecasting time series data that
 is fast and tuneable. After modelling, we will compare the results from each model’s unique
 insights into Bitcoin’s future.
@@ -290,11 +290,11 @@ We want to estimate as few parameters as possible due to the principle of parsim
 as few parameters as possible). In our case, the more parameters there are, the weaker the
 model. We can fit a couple of different models and compare. It is generally advisable in fact to
 stick to models in which at least one of p and q is no larger than 1, since this is likely to lead to
-overfitting.[10]
+overfitting.[10]</p>
 
-6.4 K Means clustering
+<h3>6.4 K Means clustering</h3>
 
-It is a centroid based partitioning technique that uses the centroid of a cluster, Ci to represent
+<p>It is a centroid based partitioning technique that uses the centroid of a cluster, Ci to represent
 the cluster. Conceptually, the centroid of a cluster is its centre point. This algorithm requires to
 
 specify the number of clusters (k) be-forehand. This method is not guaranteed to converge to
@@ -304,12 +304,12 @@ clusters values from 3, 4, 5, we found that between 4 and 5 here is not much dif
 we decided to take the k value as 4. We attempt to identify the outliers based on these
 attributes.
 
-Fig 9. Before and After K Means Clustering
+Fig 9. Before and After K Means Clustering</p>
 
-7.Data Visualization
-7.1. Inference visualised on different variables executed
+<h2>7.Data Visualization</h2>
+<h3>7.1. Inference visualised on different variables executed</h3>
 
-The hash rate of a cryptocurrency is a measure of how many proofs of work calculations are
+<p>The hash rate of a cryptocurrency is a measure of how many proofs of work calculations are
 being performed by all the miners participating in the network. It is measured in terms of
 number hashes per second, but because such a large number of these calculations are
 
@@ -357,13 +357,13 @@ would help miners verify if the transactions fees paid to them is fair according
 on a block.
 
 Fig 13. Variation of Bitcoin's Transaction Fees attribute with Median Confirmation Time
-attribute
+attribute</p>
 
-8.Data Processing
+<h2>8.Data Processing</h2>
 
-8.1. Stationary:
+<h3>8.1. Stationary</h3>
 
-Next step identifies if the data is stationary or not, by applying Dickey Fuller Test and verifying
+<p>Next step identifies if the data is stationary or not, by applying Dickey Fuller Test and verifying
 with Plot.
 
 Differencing 0 Without any differencing, the result of Dickery Fuller Test, showed following
@@ -379,20 +379,20 @@ Fig 14. Differencing with 1
 
 Differencing 2 Differencing value as 2, the result of Dickery Fuller Test, showed following value
 p-value = 0.01, Alternative Hypothesis: stationary Since p-value < 0.05, it implies that data is
-now stationary, also seen from Figure 24 for differenced Close Price Data.
+now stationary, also seen from Figure 24 for differenced Close Price Data.</p>
 
-8.2 ACF and PACF
+<h3>8.2 ACF and PACF</h3>
 
-Fig 16. Differencing with 2
+</p>Fig 16. Differencing with 2
 
 Fig 17. ACF with Differencing 1
 
 Fig 18. PACF with differencing
 Fig 19. ACF with differencing
-Fig 20. PACF with differencing 2
+Fig 20. PACF with differencing 2</p>
 
-Conclusion
-Fig 14. Model for 2018 – 2019
+<h2>Conclusion</h2>
+<p>Fig 14. Model for 2018 – 2019
 
 This dataset was difficult to fit with an ARIMA model because of the fact that the variance was
 non-constant, which results in squared residuals that were dependent on one another.
@@ -418,10 +418,10 @@ We can see ACF and PACF plots for differencing order 1, 2,as above. And we see t
 shows the lags in the graph with d = 2. So, this again matches with our previous conclusion
 when we considered the stationary data for d = 2. With this we take p = 3 from ACF and q = 7
 from PACF as that is where we see real positive and negative correlation sharp cut-off
-respectively.[10]
+respectively.[10]</p>
 
-References
-[1]Feature Selection and Classification Techniques for Multivariate Time Series Basabi
+<h2>References</h2>
+<p>[1]Feature Selection and Classification Techniques for Multivariate Time Series Basabi
 Chakraborty ;Faculty of Software and Information Science, Iwate Prefectural University - 152 -
 52 Sugo, Takizawa-mura, Iwate, 0200193, Japan E-mail: basabi@soft.iwate-pu.ac.jp.
 
@@ -437,7 +437,7 @@ khaidem90@gmail.com, snehanshusaha@pes.edu sudeepar@pes.edu
 [5]Stock Price Prediction Using Regression Analysis Dr. P. K. Sahoo, Mr.Krishna charlapally
 
 [6]Random Forests by the founders ; Leo Breiman and Adele Cutler rstudio-pubs website
-describing about the Random Forest.
+describing about the Random Forest.</p>
 
 [7]Article published at the Tutor website for R tutorial.
 [8]Article published at the Institute for Digital Research and Education website.
