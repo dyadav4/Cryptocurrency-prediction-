@@ -16,7 +16,7 @@ contributes to a shift in economic paradigms and in the end we also mention that
 cryptocurrencies behaves mostly similar and if the rates of cryptocurrencies falls down than
 other cryptocurrencies with respect to market cap will also drops down.</p>
 
-<h2>1.Overview</h2>
+<h2>1. Overview</h2>
 <p>There are different kinds of cryptocurrencies and when we see the analysis we can clearly
 observe that Bitcoin, the world’s most common and well known cryptocurrency, has been
 increasing in popularity. It has the same basic structure as it did when created in 2008, but
@@ -55,7 +55,7 @@ regional market begins to plummet, it can easily drag the others with it. Bitcoi
 can freely move across many national borders, creating an environment that promotes global
 trade, mutual prosperity, and even peace.</p>
 
-<h2>2.Strengths</h2>
+<h2>2. Strengths</h2>
 <p>South America has seen a huge increase in bitcoin transactions, increasing 510% till 2019 and
 being dropped with 250% Bitcoin: A New Global Economy, 2015). In the past, different
 countries would convert their currency into US dollars to preserve their value. However, India
@@ -152,12 +152,12 @@ inconsistencies or bad metadata in the dataset.
 <img src="images/fig2.png">
 Fig 2. Data value missing 2009 – 2017
 
-<img src="images/fig3.png">
-Fig 3. Missing Values Against Date after Filling
-
 From our domain information, we consider that volume of the price might get impacted based
 on its average daily price. We calculate the average daily price by taking average of daily High
 and Low.</p>
+
+<img src="images/fig3.png">
+Fig 3. Missing Values Against Date after Filling
 
 <h3>5.2 Transformation [2nd Segment Refinement]</h3>
 
@@ -395,24 +395,21 @@ Fig 13. Differencing with 2
 <h3>8.2 ACF and PACF</h3>
 
 <img src="images/fig14.png">
-Fig 14. Differencing with 2
+Fig 14. ACF with Differencing 1
 
 <img src="images/fig15.png">
-Fig 17. ACF with Differencing 1
+Fig 15. PACF with Differencing 1
 
 <img src="images/fig16.png">
-Fig 18. PACF with differencing
+Fig 16. ACF with differencing 2
 
 <img src="images/fig17.png">
-Fig 19. ACF with differencing
-
-<img src="images/fig18.png">
-Fig 20. PACF with differencing 2</p>
+Fig 17. PACF with differencing 2
 
 <h2>Conclusion</h2>
 
-<img src="images/fig19.png">
-Fig 14. Model for 2018 – 2019
+<img src="images/fig18.png">
+Fig 18. Model for 2018 – 2019
 
 <p>This dataset was difficult to fit with an ARIMA model because of the fact that the variance was
 non-constant, which results in squared residuals that were dependent on one another.
@@ -437,6 +434,9 @@ shows the lags in the graph with d = 2. So, this again matches with our previous
 when we considered the stationary data for d = 2. With this we take p = 3 from ACF and q = 7
 from PACF as that is where we see real positive and negative correlation sharp cut-off
 respectively.[10]</p>
+
+<img src="images/fig19.png">
+Fig 19. Model for 2009 - 2017
 
 <h2>References</h2>
 <p>Feature Selection and Classification Techniques for Multivariate Time Series Basabi
