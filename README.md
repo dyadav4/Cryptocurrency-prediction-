@@ -65,7 +65,7 @@ The demand for Indians, Arabians and different citizens to keep their currency v
 itself very apparent, and cryptocurrencies are prominent legal vehicles to meet that demand.
 
 <img src="images/fig1.png">
-<figcaption>Fig 1. Bitcoin Transaction Value Growth</figcaption>
+Fig 1. Bitcoin Transaction Value Growth
 
 To purchase bitcoin, one only needs to set up an online account with an online exchange, make
 their request, and the transaction is usually completed in minutes. Once the bitcoin is in their
