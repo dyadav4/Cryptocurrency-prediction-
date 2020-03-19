@@ -440,7 +440,9 @@ khaidem90@gmail.com, snehanshusaha@pes.edu sudeepar@pes.edu
 describing about the Random Forest.</p>
 
 [7]Article published at the Tutor website for R tutorial.
-[8]Article published at the Institute for Digital Research and Education website.
+
+[8]Article published at the Institute for Digital Research and Education website
+
 [9]https://jstevenr.com/bitcoin.html#transforming
 
 [10]https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with- machine-
