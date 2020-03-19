@@ -307,7 +307,7 @@ attributes.
 Fig 9. Before and After K Means Clustering</p>
 
 <h2>7.Data Visualization</h2>
-<h3>7.1. Inference visualised on different variables executed</h3>
+<h3>7.1 Inference visualised on different variables executed</h3>
 
 <p>The hash rate of a cryptocurrency is a measure of how many proofs of work calculations are
 being performed by all the miners participating in the network. It is measured in terms of
