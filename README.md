@@ -442,6 +442,4 @@ Article published at the Tutor website for R tutorial.
 
 Article published at the Institute for Digital Research and Education website
 
-https://jstevenr.com/bitcoin.html#transforming
-
 https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with-machine-learning-1b5a711d</p>
