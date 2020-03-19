@@ -421,29 +421,25 @@ from PACF as that is where we see real positive and negative correlation sharp c
 respectively.[10]</p>
 
 <h2>References</h2>
-<p>[1]Feature Selection and Classification Techniques for Multivariate Time Series Basabi
+<p>Feature Selection and Classification Techniques for Multivariate Time Series Basabi
 Chakraborty ;Faculty of Software and Information Science, Iwate Prefectural University - 152 -
 52 Sugo, Takizawa-mura, Iwate, 0200193, Japan E-mail: basabi@soft.iwate-pu.ac.jp.
 
-[2]http://www.rdatamining.com/examples/time-series-clustering-classi_cation.
+http://www.rdatamining.com/examples/time-series-clustering-classi_cation.
 
-[3]The Application of Machine Learning Techniques to Time-Series Data -Author Scott Mitchell;
+The Application of Machine Learning Techniques to Time-Series Data -Author Scott Mitchell;
 Master of Computing and Mathematical Sciences at the University of Waikato.
 
-[4]Article by Sunil Ray at Analytics Vidhya Website Predicting the direction of stock market
+Article by Sunil Ray at Analytics Vidhya Website Predicting the direction of stock market
 prices using random forest. Luckyson Khaidem Snehanshu Saha Sudeepa Roy Dey.
 khaidem90@gmail.com, snehanshusaha@pes.edu sudeepar@pes.edu
 
-[5]Stock Price Prediction Using Regression Analysis Dr. P. K. Sahoo, Mr.Krishna charlapally
+Stock Price Prediction Using Regression Analysis Dr. P. K. Sahoo, Mr.Krishna charlapally
 
-[6]Random Forests by the founders ; Leo Breiman and Adele Cutler rstudio-pubs website
-describing about the Random Forest.</p>
-
-[7]Article published at the Tutor website for R tutorial.
-
-[8]Article published at the Institute for Digital Research and Education website
-
-[9]https://jstevenr.com/bitcoin.html#transforming
-
-[10]https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with- machine-
-learning-1b5a711d
+Random Forests by the founders ; Leo Breiman and Adele Cutler rstudio-pubs website
+describing about the Random Forest.
+Article published at the Tutor website for R tutorial.
+Article published at the Institute for Digital Research and Education website
+https://jstevenr.com/bitcoin.html#transforming
+https://medium.com/datadriveninvestor/predicting-cryptocurrency-prices-with- machine-
+learning-1b5a711d</p>
